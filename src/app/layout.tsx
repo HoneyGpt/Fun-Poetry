@@ -14,24 +14,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Medieval Poetry Generator - Fun Poetry",
+  description: "Create authentic medieval-style poems with AI. Choose your character, setting, event, and emotions to craft personalized verses in English or Classical Chinese.",
+  keywords: ["medieval poetry", "poem generator", "AI poetry", "classical Chinese poetry", "medieval verse", "fun poetry", "creative writing"],
+  authors: [{ name: "Fun Poetry Team" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/favicon.ico",
+    apple: "/favicon.png",
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Medieval Poetry Generator",
+    description: "Craft authentic medieval verses with AI-powered poetry generation",
+    url: "https://github.com/HoneyGpt/Fun-Poetry",
+    siteName: "Fun Poetry",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Medieval Poetry Generator",
+    description: "Create authentic medieval-style poems with AI",
   },
 };
 
