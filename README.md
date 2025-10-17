@@ -45,7 +45,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+Open [https://fun-poetry.vercel.app/](https://fun-poetry.vercel.app/) to view the application.
 
 ### Build for Production
 
