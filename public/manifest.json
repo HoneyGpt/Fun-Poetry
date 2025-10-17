@@ -1,0 +1,21 @@
+{
+  "name": "Medieval Poetry Generator",
+  "short_name": "Medieval Poetry",
+  "description": "Create authentic medieval-style poems with AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4e4c1",
+  "theme_color": "#8B4513",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

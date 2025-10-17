@@ -19,20 +19,33 @@ export const metadata: Metadata = {
   keywords: ["medieval poetry", "poem generator", "AI poetry", "classical Chinese poetry", "medieval verse", "fun poetry", "creative writing"],
   authors: [{ name: "Fun Poetry Team" }],
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", sizes: "1024x1024", type: "image/png" }
+    ],
+    apple: { url: "/favicon.png", sizes: "1024x1024", type: "image/png" },
   },
+  manifest: "/manifest.json",
   openGraph: {
     title: "Medieval Poetry Generator",
     description: "Craft authentic medieval verses with AI-powered poetry generation",
     url: "https://github.com/HoneyGpt/Fun-Poetry",
     siteName: "Fun Poetry",
     type: "website",
+    images: [
+      {
+        url: "/favicon.png",
+        width: 1024,
+        height: 1024,
+        alt: "Medieval Poetry Generator",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Medieval Poetry Generator",
     description: "Create authentic medieval-style poems with AI",
+    images: ["/favicon.png"],
   },
 };
 
