@@ -1,141 +1,233 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# 📜 Medieval Poetry Generator
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+A beautifully crafted web application that generates authentic medieval-style poetry using AI. Create personalized verses in English or Classical Chinese with custom emotions, characters, and settings.
 
-## ✨ Technology Stack
+## ✨ Features
 
-This scaffold provides a robust foundation built with:
+### 🎭 **Poetry Generation**
+- **Dual Language Support**: Generate poems in archaic English or Classical Chinese
+- **Custom Emotions**: Input personalized feelings or choose from preset emotions
+- **Character Selection**: Hero, Noble, or Commoner perspectives
+- **Medieval Settings**: Castle, Forest, or Village environments
+- **Story Events**: Battle, Love, or Treachery narratives
 
-### 🎯 Core Framework
-- **⚡ Next.js 15** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+### 🎨 **Authentic Medieval Design**
+- **Parchment Background**: Textured medieval manuscript aesthetic
+- **Gothic Typography**: Period-appropriate font styling
+- **Illuminated Capitals**: Decorated first letters with vine scrollwork
+- **Ink Bleed Animation**: Realistic text reveal effects
+- **Scroll Unfold**: Smooth parchment unrolling animations
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
-
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
-
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Axios** - Promise-based HTTP client
-
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation Node.js and TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
-
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
-
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
-
-## 🎯 Why This Scaffold?
-
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
+### 🛠️ **Technical Features**
+- **Responsive Design**: Works beautifully on all devices
+- **Modern Stack**: Next.js 15, TypeScript, Tailwind CSS
+- **AI-Powered**: Uses Pollinations API for text generation
+- **No API Keys**: Free to use without authentication
+- **Production Ready**: Optimized for deployment
 
 ## 🚀 Quick Start
 
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
 ```bash
+# Clone the repository
+git clone https://github.com/HoneyGpt/Fun-Poetry.git
+cd Fun-Poetry
+
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
+```
 
-# Build for production
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+### Build for Production
+
+```bash
+# Build the application
 npm run build
 
 # Start production server
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
+## 🎯 How to Use
 
-## 🤖 Powered by Z.ai
+1. **Select Language**: Choose between English (Archaic) or Classical Chinese
+2. **Choose Character**: Pick Hero, Noble, or Commoner as your protagonist
+3. **Select Setting**: Choose Castle, Forest, or Village as the location
+4. **Pick Event**: Select Battle, Love, or Treachery as the main event
+5. **Set Emotion**: 
+   - Use preset emotions (Joy, Sorrow, Rage)
+   - Or write custom emotions for personalized poetry
+6. **Generate**: Click "Generate Medieval Verse" to create your poem
+7. **Enjoy**: Watch the medieval animations and read your authentic verse!
 
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
+## 🏗️ Technology Stack
 
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
+### Frontend
+- **⚡ Next.js 15** - React framework with App Router
+- **📘 TypeScript** - Type-safe development
+- **🎨 Tailwind CSS 4** - Utility-first styling
+- **🧩 shadcn/ui** - High-quality UI components
+- **🎯 Lucide React** - Beautiful icons
+- **🌈 Framer Motion** - Smooth animations
 
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
+### Backend & API
+- **🔄 Pollinations API** - AI text generation
+- **📡 Next.js API Routes** - Serverless functions
+- **🔥 No Authentication Required** - Free to use
+
+### Development Tools
+- **📝 ESLint** - Code quality
+- **🎨 Tailwind** - Styling framework
+- **📦 npm** - Package management
+
+## 🎨 Design Features
+
+### Medieval Aesthetics
+- **Parchment Texture**: Authentic manuscript appearance
+- **Gothic Elements**: Period-appropriate design language
+- **Color Scheme**: Warm browns, ambers, and deep crimsons
+- **Typography**: Serif fonts with medieval styling
+
+### Interactive Elements
+- **Toggle Buttons**: Smooth preset/custom emotion switching
+- **Loading States**: Medieval-themed loading indicators
+- **Toast Notifications**: Period-appropriate success/error messages
+- **Hover Effects**: Interactive feedback on all elements
+
+### Animations
+- **Ink Bleed Effect**: Realistic text spreading animation
+- **Scroll Unfold**: Parchment rolling animation
+- **Fade Transitions**: Smooth content reveals
+- **Micro-interactions**: Subtle hover and focus states
 
 ## 📁 Project Structure
 
 ```
 src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
+├── app/
+│   ├── api/
+│   │   └── generate-poem/    # Poetry generation API
+│   ├── layout.tsx            # Root layout component
+│   ├── page.tsx              # Main poetry generator
+│   └── globals.css           # Global styles
+├── components/
+│   └── ui/                   # shadcn/ui components
+├── hooks/
+│   ├── use-toast.ts          # Toast notifications
+│   └── use-mobile.ts         # Mobile detection
+└── lib/
+    ├── utils.ts              # Utility functions
+    ├── db.ts                 # Database configuration
+    └── socket.ts             # WebSocket setup
 ```
 
-## 🎨 Available Features & Components
+## 🔧 API Integration
 
-This scaffold includes a comprehensive set of modern web development tools:
+### Pollinations API
+The application uses Pollinations for AI text generation:
 
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
+```javascript
+// POST method (primary)
+const response = await fetch('https://text.pollinations.ai/', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    prompt: yourPrompt,
+    model: 'openai',
+    temperature: 0.8,
+    max_tokens: 500,
+  }),
+})
 
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
+// GET method (fallback)
+const response = await fetch(`https://text.pollinations.ai/${encodedPrompt}`)
+```
 
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
+### Features
+- **No API Keys Required**: Completely free to use
+- **Fallback Mechanism**: Automatic GET method fallback
+- **Error Handling**: Robust error management
+- **Fast Response**: Optimized for poetry generation
 
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Axios + TanStack Query
-- **State Management**: Simple and scalable with Zustand
+## 🚀 Deployment
 
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
+### Vercel (Recommended)
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-## 🤝 Get Started with Z.ai
+# Deploy
+vercel
+```
 
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+### Netlify
+```bash
+# Build and deploy
+npm run build
+# Deploy the dist/ folder to Netlify
+```
+
+### Other Platforms
+- **Railway**: Works with Node.js runtime
+- **Render**: Compatible with Render's web services
+- **DigitalOcean**: Can be deployed as a Node.js app
+- **Heroku**: Supports Heroku's dynos
+
+## 🎭 Poetry Examples
+
+### English (Archaic)
+```
+Upon the castle walls so high,
+Where banners dance in morning light,
+A hero stands beneath the sky,
+His sword prepared for deadly fight.
+```
+
+### Classical Chinese
+```
+青山古堡立云间，
+英雄独立望烽烟。
+宝剑出鞘寒光闪，
+誓守家园保平安。
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Pollinations** - For providing the AI text generation API
+- **shadcn/ui** - For the beautiful UI components
+- **Next.js Team** - For the amazing React framework
+- **Medieval Poetry** - For inspiration from classic verse forms
+
+## 📞 Support
+
+If you have any questions or suggestions, please:
+- Open an issue on GitHub
+- Reach out via discussions
+- Share your generated poetry!
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+Built with ❤️ for poetry lovers and medieval enthusiasts everywhere.
